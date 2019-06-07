@@ -9,7 +9,7 @@ function BoardMember(name, homeState, training) {
   this.approve = function(){
     console.log("You can do that!");
   }
-  this.charity = function(){
+  this.doCharity = function(){
     console.log("I like to help people");
   }
   this.releasePressStatement = function(){
